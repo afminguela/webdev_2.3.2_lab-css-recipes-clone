@@ -37,18 +37,49 @@ body {
 
 .foto {
   width: 100%;
+  
 }
 .titulo {
-  background-image: url("./apple-pie/images/apple-pie.jpg");
-  color: white;
-  font-size: large;
+  top:20rem;
+  left:23rem ;
+  font-size: 4.95rem;
+ 
 }
 
+/* ESTILOS DEL CUERPO*/
 p{ 
-  text-align: center;
+  font-size: 1.4rem;
+  text-align:justify;
+  line-height: 1.2;
+  
+  
 }
 
-h2{text-align: center;}
+
+i{
+  color:lightslategray;
+  
+}
+ul {
+  /* 1. Remove the default list style */
+  list-style: none;
+}
+
+
+
+ul > li::before {
+  /*3. Set the new style for the list markers */
+  content: "- ";
+} 
+
+.graella{
+  display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
 
 ol {
   /* 1. Remove the default list style */
