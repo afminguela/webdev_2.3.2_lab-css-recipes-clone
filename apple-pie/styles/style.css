@@ -22,3 +22,14 @@ body {
 
 /* STYLES */
 /* Write your CSS below */
+
+.foto{
+height: fit-content;
+width: auto;
+border: 5px solid black;
+  background-image: url(./images/apple-pie.jpg);
+  
+}
+.titulo{
+  color:white
+}
